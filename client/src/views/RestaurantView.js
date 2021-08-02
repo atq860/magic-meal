@@ -11,7 +11,6 @@ import {
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Menu from "../components/Menu";
-// import Rating from "../components/Rating";
 import menus from "../data/menus";
 
 const RestaurantView = ({ match, history }) => {
@@ -25,7 +24,6 @@ const RestaurantView = ({ match, history }) => {
         {menus.map((menu) => (
           <Col sm={12} md={6} lg={4} xl={3} key={menu._id}>
             <Menu menu={menu} />
-            {/* <h1>{product.name}</h1> */}
           </Col>
         ))}
       </Row>

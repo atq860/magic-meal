@@ -10,13 +10,10 @@ import {
   Form,
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Rating from "../components/Rating";
 import menus from "../data/menus";
 
 const MenuView = ({ match, history }) => {
   const [qty, setQty] = useState(1);
-  const [items, setItems] = useState([]);
-
   const menu = menus.find((m) => m._id === match.params.id);
 
   const addToCartHandler = () => {

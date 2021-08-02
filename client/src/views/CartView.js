@@ -10,7 +10,6 @@ import {
   Card,
   ListGroupItem,
 } from "react-bootstrap";
-// import ProductView from "./ProductView";
 
 const CartView = ({ match, location, history }) => {
   const productId = match.params.id;
@@ -25,7 +24,7 @@ const CartView = ({ match, location, history }) => {
     <Row>
       <Col md={8}>
         <h1>Shopping Cart</h1>
-        {/* <ProductView item={index} /> */}
+        {/* <MenuView item={index} /> */}
 
         {/* {cartItems.length === 0 ? (
           <div>
