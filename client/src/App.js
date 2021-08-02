@@ -1,9 +1,14 @@
 import React from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <>
-      <h1>Magic Meal</h1>
+      <Header />
+      <main>
+        <h1>Magic Mealll</h1>
+      </main>
     </>
   );
 };
