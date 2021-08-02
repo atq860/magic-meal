@@ -1,0 +1,31 @@
+{
+  "name": "meal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nob786/meal.git"
+  },
+  "author": "Noor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nob786/meal/issues"
+  },
+  "homepage": "https://github.com/nob786/meal#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "joi": "^17.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.3",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12"
+  }
+}
